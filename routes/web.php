@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\OAuthController;
+use App\Http\Controllers\Auth\OAuthController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes

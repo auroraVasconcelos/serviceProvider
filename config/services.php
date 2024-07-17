@@ -31,4 +31,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'passport' => [
+        'client_id' => env('PASSPORT_CLIENT_ID'),
+        'client_secret' => env('PASSPORT_CLIENT_SECRET'),
+        'redirect_uri' => env('PASSPORT_REDIRECT_URI'),
+        'url' => env('PASSPORT_URL'),
+    ],
 ];
